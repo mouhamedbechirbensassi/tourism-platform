@@ -64,7 +64,7 @@ Backend:
 ## Screenshots
 
 ### Hotels Management
-![Hotels](docs/hotels.png)
+![Hotels](docs/hotel.png)
 
 ### Dashboard Statistics
 ![Dashboard](docs/dashboard.png)
