@@ -64,7 +64,7 @@ Backend:
 
 \### Hotels Management
 
-!\[Hotels](docs/hotel.png)
+![Hotels](docs/hotels.png)
 
 
 
