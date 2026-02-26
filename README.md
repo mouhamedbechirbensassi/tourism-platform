@@ -58,21 +58,16 @@ Backend:
 
 
 
-\## Screenshots
 
 
 
-\### Hotels Management
+## Screenshots
 
+### Hotels Management
 ![Hotels](docs/hotels.png)
 
-
-
-\### Dashboard Statistics
-
-!\[Dashboard](docs/dashboard.png)
-
-
+### Dashboard Statistics
+![Dashboard](docs/dashboard.png)
 
 
 
