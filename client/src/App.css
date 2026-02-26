@@ -1,0 +1,86 @@
+/* Base */
+.app {
+  min-height: 100vh;
+  background: #f6f7fb;
+  color: #111827;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Header */
+.appHeader {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.appHeaderInner {
+  max-width: 150000px;
+  margin: 0 auto;
+  padding: 15px 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.appHeaderRight {
+  /* reserved for later: user menu, settings, etc. */
+  min-width: 1px;
+}
+
+.appHeaderImg {
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Nav buttons */
+.appNav {
+  display: flex;
+  gap: 10px;
+}
+
+.appNavBtn {
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background 150ms ease, border-color 150ms ease, transform 80ms ease;
+}
+
+.appNavBtn:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.appNavBtn:active {
+  transform: translateY(1px);
+}
+
+.appNavBtn.isActive {
+  background: #111827;
+  color: #ffffff;
+  border-color: #111827;
+}
+
+/* Layout */
+.appMain {
+  padding: 24px;
+}
+
+.appContainer {
+  max-width: 1500px;
+  margin: 0 auto;
+}
